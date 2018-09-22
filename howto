@@ -1,3 +1,5 @@
+1. creating a new rails app
+=============================
 rails new recipefinder
 cd recipefinder/
 git status
@@ -16,4 +18,11 @@ gem install poltergeist
 rails --version            # Rails 4.2.8
 ruby --version             # ruby 2.5.0p0
 phantomjs --version        # 1.9.8
+
+
+2. generate a controller
+=============================
+
+rails generate controller RecipesController index
+
 

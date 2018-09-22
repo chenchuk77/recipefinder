@@ -31,6 +31,7 @@ rails generate controller Recipes index
 
 7-8-9. create recipes/index.html.erb view
 
-10. ??? no problem when search for 'mocha'
+10. sanitize (add view function to format the title)
+
 
 

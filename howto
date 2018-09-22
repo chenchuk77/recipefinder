@@ -1,0 +1,19 @@
+rails new recipefinder
+cd recipefinder/
+git status
+git init
+git add .
+git commit -m "initial commit"
+cp -ar ${starter-files} .
+cp -ar ${starter-files}/.rspec .   # also copy the hidden file !
+git add .
+git commit -m "overriding with files from starter files (course bootstrap files)"
+bundle install             # resolve new gems
+gem install rspec
+gem install rspec-its
+gem install capybara
+gem install poltergeist
+rails --version            # Rails 4.2.8
+ruby --version             # ruby 2.5.0p0
+phantomjs --version        # 1.9.8
+

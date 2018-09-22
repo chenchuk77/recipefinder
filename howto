@@ -20,9 +20,17 @@ ruby --version             # ruby 2.5.0p0
 phantomjs --version        # 1.9.8
 
 
-2. generate a controller
-=============================
+2. generate a RecipesController with index action
+rails generate controller Recipes index
 
-rails generate controller RecipesController index
+3-4-5. create model (class Recipe)
+- in app/model/recipe.rb
+- in app/api-tester.rb ( my own tester )
+
+6. add logo to application.html.rb template
+
+7-8-9. create recipes/index.html.erb view
+
+10. ??? no problem when search for 'mocha'
 
 

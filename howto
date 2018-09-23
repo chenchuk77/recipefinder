@@ -1,3 +1,13 @@
+
+To run:
+clone the repo
+cd recipefinder
+export FOOD2FORK_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxx
+rails s
+
+=====================================================================
+How that project built from scratch:
+
 1. creating a new rails app
 =============================
 rails new recipefinder
